@@ -1,4 +1,4 @@
-import {ProfilePic} from '../images/profile.png'
+import ProfilePic from '../images/profile.png'
 
 const CustomersList = [
     {

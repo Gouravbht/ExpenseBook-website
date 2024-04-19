@@ -1,4 +1,4 @@
-import {ImageLogo} from '../images/Google.png'
+import ImageLogo from '../images/Google.png'
 const CompanyList = [
     { name: "Google", image: ImageLogo },
     { name: "Google", image: ImageLogo },
