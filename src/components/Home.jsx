@@ -1,9 +1,9 @@
 
 const CompanyList = [
-    { name: "Google", image: "/src/images/Google.png" },
-    { name: "Google", image: "/src/images/Google.png" },
-    { name: "Google", image: "/src/images/Google.png" },
-    { name: "Google", image: "/src/images/Google.png" },
+    { name: "Google", image: "/images/Google.png" },
+    { name: "Google", image: "/images/Google.png" },
+    { name: "Google", image: "/images/Google.png" },
+    { name: "Google", image: "/images/Google.png" },
   ];
 const Home = () => {
   return (

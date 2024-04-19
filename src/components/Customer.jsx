@@ -1,7 +1,7 @@
 const CustomersList = [
     {
         name: "Rohit Mehra",
-        imgUrl: "/src/images/profile.png",
+        imgUrl: "/images/profile.png",
         position: "CFO, XYZ",
         para: "ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No more unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.",
         bg: "rgba(54, 94, 238, 0.1)", // Adding transparency to the background color
@@ -9,7 +9,7 @@ const CustomersList = [
     },
     {
         name: "Alan Turing",
-        imgUrl: "/src/images/profile.png",
+        imgUrl: "/images/profile.png",
         position: "CFO, XYZ",
         para: "ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No more unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.",
         bg: "rgba(26, 172, 234, 0.1)", // Adding transparency to the background color
@@ -17,7 +17,7 @@ const CustomersList = [
     },
     {
         name: "Mark Jacob",
-        imgUrl: "/src/images/profile.png",
+        imgUrl: "/images/profile.png",
         position: "CEO, XYZ",
         para: "ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No more unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.",
         bg: "rgba(36, 128, 235, 0.1)", // Adding transparency to the background color
