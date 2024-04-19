@@ -1,6 +1,8 @@
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
@@ -22,12 +24,12 @@ const Footer = () => {
         </div>
         <p>30 Days free trial . Upto 10 users</p>
       </div>
-      <div className="footer2" style={{ marginRight:"90px", borderBottomColor:"#F1F5F9"}}>
+      <div className="footer2" style={{ marginRight:"90px", borderBottomColor:"#F1F5F9", }}>
         <h2 className="logo">ExpenseBook</h2>
         <div>
           <div>
-            <p>Address</p>
-            <p>+91 1234567890</p>
+            <p><FaLocationDot/> Address</p>
+            <p><FaPhoneAlt/> +91 1234567890</p>
           </div>
           <div className="socials">
             <p>Social media</p>
