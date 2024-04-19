@@ -13,6 +13,13 @@ body {
 .heroSection {
   width: 100%;
 }
+.heroHeading{
+  background: linear-gradient(to right, #2d56ec, #1aacea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 2px;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -27,9 +34,10 @@ body {
 button {
   background: linear-gradient(to right, #2d56ec, #1aacea);
   color: white;
-  padding: 0.5rem;
+  padding: 0.6rem;
   border: none;
   border-radius: 5px;
+ cursor: pointer;
 }
 
 .mainSection {
@@ -44,12 +52,14 @@ button {
   display: flex;
   gap: 0.8rem;
   color: #f1f5f9;
+  padding: 20px;
 }
 input {
   border: 2px solid #cbd5e1;
   background-color: #f1f5f9;
   color: #94a3b8;
   border-radius: 5px;
+  padding: 10px;
 }
 input::placeholder {
   color: #94a3b8;
@@ -65,6 +75,7 @@ input::placeholder {
   max-width: 1400px;
   border: 2px solid #cbd5e1;
   border-radius: 20px;
+  padding-bottom: 40px;
 }
 
 .enterprice .company-list {
@@ -85,6 +96,9 @@ input::placeholder {
   margin-left: 0.5rem;
   margin-top: 1.8rem;
 }
+
+
+
 
 .features {
   width: 100%;

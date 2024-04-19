@@ -14,11 +14,11 @@ const Footer = () => {
           Manage your travel and expenses the smart way!
         </h2>
         <div className="inputData">
-          <input type="text" placeholder="Name" style={{ padding: "10px" }} />
+          <input type="text" placeholder="Name" style={{ padding: "14px" }} />
           <input
             type="text"
             placeholder="Official email ID"
-            style={{ padding: "10px", paddingInline: "25px" }}
+            style={{ padding: "10px", paddingInline: "45px" }}
           />
           <button>Start trial</button>
         </div>

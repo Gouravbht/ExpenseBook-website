@@ -24,13 +24,13 @@ const Home = () => {
         </nav>
         {/* Main section of user's name and mail */}
         <div className="mainSection">
-          <h2 style={{ color: "blue", fontWeight: "normal" }}>
+          <h2  className="heroHeading">
             The World&apos;s Most Configurable
           </h2>
           <h1 style={{ color: "#334155", fontFamily: "extatica" }}>
             Travel & Expense Management Software
           </h1>
-          <p style={{ width: "60%", fontSize: "1.2rem", color: "#334155" }}>
+          <p style={{ width: "60%", fontSize: "1.2rem", color: "#64748B" }}>
             Configure any rule. Enable a world class mobile experience for your
             users. Get seamless reporting & integrations. Inbuilt OCR expense
             scanning. Manage travel & non-travel expenses. Open APIs to connect
@@ -59,15 +59,15 @@ const Home = () => {
           }}
         >
           <div className="enterprice">
-            <p>USED BY OVER 50 ENTERPRISES</p>
+            <p style={{ color:"#94A3B8", fontSize:"25px"}}>USED BY OVER 50 ENTERPRISES</p>
             <div className="company-list">
               {CompanyList.map((company) => (
                 <div className="company-item" key={company.name}>
                   <img
                     src={company.image}
                     alt={company.name}
-                    width={90}
-                    height={50}
+                    width={70}
+                    height={40}
                     style={{ marginTop: "10px" }}
                   />
                   <h3>{company.name}</h3>
