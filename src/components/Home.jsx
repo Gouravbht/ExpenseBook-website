@@ -1,9 +1,9 @@
-
+import {ImageLogo} from '../images/Google.png'
 const CompanyList = [
-    { name: "Google", image: "/images/Google.png" },
-    { name: "Google", image: "/images/Google.png" },
-    { name: "Google", image: "/images/Google.png" },
-    { name: "Google", image: "/images/Google.png" },
+    { name: "Google", image: ImageLogo },
+    { name: "Google", image: ImageLogo },
+    { name: "Google", image: ImageLogo },
+    { name: "Google", image: ImageLogo },
   ];
 const Home = () => {
   return (
